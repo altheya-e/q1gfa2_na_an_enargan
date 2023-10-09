@@ -1,0 +1,123 @@
+@font-face{
+    font-family: 'peachyday';
+    src: 
+        url(peachyday.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'Sugar Peachy DEMO Black';
+    src: 
+        url(sugar-peachy.otf) format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    text-align: center;
+    background-color: #e3c3d8;
+}
+
+.header{
+    display: block; 
+    border: 1px solid #271E16;
+    height: 10vh ;
+}
+
+.header h2{
+    float: left;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    font-family: 'Sugar Peachy DEMO Black', Fallback, sans-serif;
+    font-size: 2em;
+    color: #A266C7;
+    text-shadow: 2px 2px #271E16;
+}
+
+.nav-bar{
+    float: right;
+    height: 1vh;
+    margin-right: 2.5vw;
+    margin-top: 3.5vh;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: #271E16;
+    font-family: 'peachyday', Fallback, sans-serif;
+    font-size: 1.4em;
+    background-color: #E3DBC3;
+    padding: 0.5vw;
+}
+
+.side-links{
+    display: inline-block;
+    border: 1px solid black;
+    width: 15vw;
+    height: 90vh;
+    float: left;
+}
+
+.side-links a{
+    text-decoration: none;
+    padding-top: 5vh;
+    font-size: x-large;
+    font-family: 'peachyday', Fallback, sans-serif;
+}
+
+.side-links a{
+    display: block;
+}
+
+.main-content{
+    display: inline-block;
+    border: 1px solid #271E16;
+    width: 55vw;
+    height: 90vh;
+    padding-left: 3vw;
+    text-align: left;
+}
+
+.main-content h1{
+    font-family: 'Sugar Peachy DEMO Black', Fallback, sans-serif;
+    color: #A266C7;
+    padding-top: 1vh;
+    font-size: 5em;
+    text-shadow: 2px 2px #271E16;
+}
+
+.main-content p{
+    font-family: 'peachyday';
+    font-size: 1.5em;
+}
+
+.main-content img{
+    width: 26vw;
+    height: 50vh;
+    border: 8px solid #A266C7;
+    border-style: dotted;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+.side-content{
+    display: inline-block;
+    border: 1px solid #271E16;
+    width: 20vw;
+    height: 90vh;
+    float: right;
+    font-family: 'peachyday';
+    font-size: 1.4em;
+}
+
+.side-content p{
+    padding: 1vw;
+}
+.side-content img{
+    width: 15vw;
+    margin-top: 6vh;
+    border: 8px solid #A266C7;
+    border-style: dotted;
+}
